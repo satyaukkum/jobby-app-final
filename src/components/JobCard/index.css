@@ -1,0 +1,153 @@
+* {
+  /* border: 1px solid white; */
+  font-family: 'roboto';
+}
+.tex-icon-containers {
+  display: flex;
+  align-items: center;
+}
+.job-card-container {
+  padding: 25px 30px;
+  background-color: #202020;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+.link-type {
+  text-decoration: none;
+  color: white;
+}
+.logo-title-rating-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.company-logo {
+  height: 75px;
+  border-radius: 10px;
+}
+.title-container {
+  margin-left: 15px;
+}
+.card-title {
+  font-size: 25px;
+  color: white;
+  margin: 0;
+  font-weight: 600;
+}
+.card-rating {
+  font-weight: 500;
+}
+.star-icon-card {
+  height: 25px;
+  width: 25px;
+  margin: 0;
+  margin-right: 5px;
+}
+.location-employment-conatiner {
+  display: flex;
+  align-items: center;
+}
+.location-card {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+}
+.location-icon {
+  height: 28px;
+  width: 28px;
+  margin-right: 10px;
+}
+.package-card {
+  font-size: 23px;
+  font-weight: 500;
+  margin-left: auto;
+  /* margin-right: 15px; */
+}
+.card-separator-line {
+  border: 1px solid #7e858e;
+  margin: 0;
+}
+.description-heading {
+  font-size: 21px;
+  font-weight: 600;
+}
+.card-description {
+  font-size: 17px;
+  font-weight: 500;
+  color: #f1f5f9;
+}
+@media screen and (max-width: 768px) {
+  .job-card-container {
+    padding: 15px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+  .link-type {
+    text-decoration: none;
+    color: white;
+  }
+
+  .company-logo {
+    height: 50px;
+    border-radius: 6px;
+  }
+  .title-container {
+    margin-left: 15px;
+  }
+  .card-title {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0 0 0;
+    font-weight: 600;
+    padding: 0;
+  }
+  .card-rating {
+    font-size: 14px;
+
+    font-weight: 500;
+  }
+  .star-icon-card {
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    margin-right: 5px;
+  }
+  .location-employment-conatiner {
+    display: flex;
+    align-items: center;
+  }
+  .location-card {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 15px;
+  }
+  .location-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+  }
+  .package-card {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: auto;
+    /* margin-right: 15px; */
+  }
+  .card-separator-line {
+    border: 1px solid #7e858e;
+    margin: 0;
+  }
+  .description-heading {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .card-description {
+    font-size: 14px;
+    font-weight: 500;
+    color: #f1f5f9;
+    line-height: 1.3rem;
+  }
+}
