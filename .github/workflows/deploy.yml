@@ -26,7 +26,7 @@ jobs:
           cp -r src/main/webapp target/ROOT
 
       - name: Upload WAR Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: war-file
           path: target/ROOT
@@ -37,7 +37,7 @@ jobs:
 
     steps:
       - name: Download WAR Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: war-file
           path: ROOT
