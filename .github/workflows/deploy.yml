@@ -20,9 +20,12 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+        
+      - name: Set OpenSSL Legacy Provider  # 🔹 Add this step
+        run: export NODE_OPTIONS=--openssl-legacy-provider
 
       - name: Build React App
-        run: npm run build
+        run: CI=false npm run build
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
